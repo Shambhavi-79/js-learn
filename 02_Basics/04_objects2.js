@@ -53,4 +53,38 @@ const users = [
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('isLogged'))
+// console.log(tinderUser.hasOwnProperty('isLogged'))
+
+
+const course = {
+    name: "js in hindi",
+    price: "999",
+    instructor: "hitesh"
+}
+
+const {instructor: inst} = course
+
+// console.log(instructor)
+console.log(inst)
+
+// obj de-structuring
+
+const navbar = ({company}) => {
+
+}
+
+navbar(company = "hitesh")
+
+// API using JSON
+
+// {
+//     "name": "shambhavi",
+//     "coursename":"js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
