@@ -1,10 +1,10 @@
 const userEmail = []
 
-if (userEmail) {
+/* if (userEmail) {
     console.log("got user email")
 }else{
     console.log("user email not found")
-}
+} */
 
 // falsy values
 
@@ -30,3 +30,19 @@ false == 0  //true
 false == "" //true
 0 == ""     //true
 
+// Nullish Coalescing Operator (??) : null, undefined
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+val1 = undefined ?? 10
+
+console.log(val1) 
+
+// ternary operator
+
+// condition ? true : false
+
+const iceTeaPrice = 100
+
+iceTeaPrice >= 50 ? console.log("ice tea is expensive") : console.log("ice tea is cheap")
